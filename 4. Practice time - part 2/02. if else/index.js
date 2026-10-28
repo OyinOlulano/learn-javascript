@@ -8,3 +8,15 @@ let age = 15
 
 // Create a conditional statement (if/else/else if) that logs out the discount
 // the passenger will get based upon the value of the age variable
+
+if (age < 6) {
+    console.log("Your passenger seat is free!")
+} else if ( age < 18){
+    console.log("Your passenger seat has a child discount!")
+} else if ( age < 27 ){
+    console.log("Your passenger seat has a student discount!")
+} else if ( age < 67){
+    console.log("Your passenger seat costs the full price!")
+} else if ( age > 66){
+    console.log("Your passenger seat has a senior discount!")
+}
