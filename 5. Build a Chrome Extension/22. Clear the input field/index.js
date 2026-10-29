@@ -7,6 +7,7 @@ inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     // Clear out the input field
     renderLeads()
+    inputEl.value = ""
 })
 
 function renderLeads() {
